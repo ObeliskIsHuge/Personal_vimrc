@@ -1,6 +1,9 @@
 "Used to show line numbers
 set number
 
+"Highlight words when searching
+set hlsearch
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
