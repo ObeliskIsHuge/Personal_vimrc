@@ -28,6 +28,9 @@ Plugin 'tpope/vim-fugitive'
 "Plugin to make Git work with NERDTree
 Plugin 'xuyuanp/nerdtree-git-plugin' 
 
+"Show hidden files by default
+let NERDTreeShowHidden=1
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
